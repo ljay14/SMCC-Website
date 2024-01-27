@@ -9,7 +9,7 @@
     border-radius: 10px;
     margin-top: 2px;
     padding: 0%;
-    
+    border-bottom: 3px inset gray;
 }
 #bodystyle {
     background-color: lightgrey;
@@ -27,28 +27,54 @@ a{
 }
 #list {
     display: inline-flex;
-    margin-right: 5%;
+    margin: 10px;
     font-weight: bold;
-    text-align: center;
-    padding: 8px;
+    padding: 10px;
     border-radius: 10px;
-    border: 1px solid gray;
+    border: 3px outset;
+    display: inline-flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
     background-color: whitesmoke;
 }
 
 nav{
-    align-items: center;
     text-align: center;
+    align-items: center;
 }
 
 #course {
-    margin: 20px;
+    margin: 18px;
     background-color: whitesmoke;
     border-radius: 10px;
     display: inline-flex;
     flex-direction: row;
-    justify-content: space-between;
-    padding: 5%;
+    align-items: center;  
+    justify-content: center;
+    border: 7px ridge ;
+    height: 11cm;
+}
+
+#coursesoffered{
+    margin-top: 2cm;
+    border-radius: 10px;
+    justify-content: center;
+    display: flex;
+
+}
+
+#coursesoffered h2 {
+    margin: 0;
+    border-radius: 10px;
+    border: 3px inset;
+    background-color: whitesmoke;
+    padding: 8px;
+}
+
+
+#EDUC h2{
+    margin-top: 0px;
 }
 
 #crim,
@@ -68,7 +94,7 @@ nav{
 }
 #it {
     width: auto;
-    height: 105px;
+    height: 100px;
     margin-top: 20px;
     border: hidden;
     border-radius: 10px;
@@ -83,7 +109,6 @@ nav{
 #CRIM,
 #BSBA, #EDUC, #IT, #CS {
     text-align: center;
-    
 }
 
 #services {
@@ -104,4 +129,8 @@ nav{
     background-color: whitesmoke;
     border-radius: 10px;
     padding: 20px;
+}
+
+#services, #about, #contact {
+    border: 7px ridge ;
 }
