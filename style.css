@@ -45,16 +45,19 @@ nav{
 }
 
 #course {
-    margin: 3%;
+    margin: 19px;
     background-color: whitesmoke;
     border-radius: 10px;
-    display: inline-flex;
+    display: flex;
     flex-direction: row;
     align-items: center;  
-    justify-content: center;
+    justify-content: space-around;
     border: 7px ridge ;
     height: 11cm;
-    justify-content: space-between;
+}
+
+article #courses{
+    align-items: center;
 }
 
 #coursesoffered{
@@ -62,7 +65,7 @@ nav{
     border-radius: 10px;
     justify-content: center;
     display: flex;
-    
+
 }
 
 #coursesoffered h2 {
