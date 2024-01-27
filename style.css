@@ -54,6 +54,7 @@ nav{
     justify-content: center;
     border: 7px ridge ;
     height: 11cm;
+    justify-content: space-between;
 }
 
 #coursesoffered{
@@ -61,7 +62,7 @@ nav{
     border-radius: 10px;
     justify-content: center;
     display: flex;
-
+    
 }
 
 #coursesoffered h2 {
@@ -70,6 +71,7 @@ nav{
     border: 3px inset;
     background-color: whitesmoke;
     padding: 8px;
+    justify-content: space-between;
 }
 
 
@@ -84,6 +86,7 @@ nav{
     margin-top: 20px;
     border: hidden;
     border-radius: 10px;
+    justify-content: space-between;
 }
 #bsba {
     width: auto;
@@ -91,6 +94,7 @@ nav{
     margin-top: 20px;
     border: hidden;
     border-radius: 10px;
+    justify-content: space-between;
 }
 #it {
     width: auto;
@@ -98,6 +102,7 @@ nav{
     margin-top: 20px;
     border: hidden;
     border-radius: 10px;
+    justify-content: space-between;
 }
 #cs {
     width: auto;
@@ -105,10 +110,12 @@ nav{
     margin-top: 20px;
     border: hidden;
     border-radius: 10px;
+    justify-content: space-between;
 }
 #CRIM,
 #BSBA, #EDUC, #IT, #CS {
     text-align: center;
+    justify-content: space-between;
 }
 
 #services {
