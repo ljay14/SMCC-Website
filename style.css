@@ -9,6 +9,7 @@
     border-radius: 10px;
     margin-top: 2px;
     padding: 0%;
+    
 }
 #bodystyle {
     background-color: lightgrey;
@@ -44,22 +45,63 @@ nav{
     margin: 20px;
     background-color: whitesmoke;
     border-radius: 10px;
-    display: flex;
+    display: inline-flex;
     flex-direction: row;
     justify-content: space-between;
     padding: 5%;
 }
 
 #crim,
-#bsba, #educ, #it, #cs {
-    width: 128px;
+#educ{
+    width: 158px;
     height: auto;
     margin-top: 20px;
     border: hidden;
     border-radius: 10px;
 }
-
+#bsba {
+    width: auto;
+    height: 105px;
+    margin-top: 20px;
+    border: hidden;
+    border-radius: 10px;
+}
+#it {
+    width: auto;
+    height: 105px;
+    margin-top: 20px;
+    border: hidden;
+    border-radius: 10px;
+}
+#cs {
+    width: auto;
+    height: 105px;
+    margin-top: 20px;
+    border: hidden;
+    border-radius: 10px;
+}
 #CRIM,
 #BSBA, #EDUC, #IT, #CS {
     text-align: center;
+    
+}
+
+#services {
+    margin: 20px;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+#about {
+    margin: 20px;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    padding: 20px;
+}
+#contact {
+    margin: 20px;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    padding: 20px;
 }
