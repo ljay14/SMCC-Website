@@ -1,4 +1,4 @@
-#header, header {
+#header{
     background-color: whitesmoke;
     text-align: center;
     margin: 5px;
@@ -8,9 +8,7 @@
     align-items: center;
     border-radius: 10px;
     margin-top: 2px;
-}
-#header{
-    border-bottom: 1px solid lightgray;
+    padding: 0%;
 }
 #bodystyle {
     background-color: lightgrey;
@@ -28,7 +26,7 @@ a{
 }
 #list {
     display: inline-flex;
-    margin-right: 90px;
+    margin-right: 5%;
     font-weight: bold;
     text-align: center;
     padding: 8px;
@@ -39,5 +37,29 @@ a{
 
 nav{
     align-items: center;
+    text-align: center;
+}
+
+#course {
+    margin: 20px;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 5%;
+}
+
+#crim,
+#bsba, #educ, #it, #cs {
+    width: 128px;
+    height: auto;
+    margin-top: 20px;
+    border: hidden;
+    border-radius: 10px;
+}
+
+#CRIM,
+#BSBA, #EDUC, #IT, #CS {
     text-align: center;
 }
