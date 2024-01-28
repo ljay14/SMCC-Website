@@ -27,6 +27,7 @@
 #list {
     display: inline-flex;
     margin: 50px;
+    margin-top: 0px;
 }
 
 nav {
