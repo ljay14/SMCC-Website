@@ -65,18 +65,17 @@ article #courses {
 }
 
 #coursesoffered {
-
     border-radius: 10px;
     justify-content: center;
     display: flex;
 }
 
 #coursesoffered h2 {
-
     border-radius: 10px;
-    border: 3px inset;
+    box-shadow: 0 10px 20px;
     background-color: whitesmoke;
     padding: 8px;
+    border: 2px outset;
 }
 
 #crim,
