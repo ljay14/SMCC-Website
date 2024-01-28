@@ -50,12 +50,24 @@ nav {
     background-color: whitesmoke;
     border-radius: 10px;
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    border: 7px ridge;
-    height: auto;
+    flex-wrap: wrap; 
+    justify-content: space-between;
     padding: 20px;
+    border: 6px ridge;
 }
+
+.course-section {
+    text-align: center;
+    width: 48%; 
+    background: white;
+    box-shadow: 0 10px 20px black;
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom: 20px;
+    display: inline-block;
+    vertical-align: top;
+}
+
 
 
 article #courses {
@@ -70,7 +82,7 @@ article #courses {
 }
 
 #coursesoffered h2 {
-    margin: 0;
+
     border-radius: 10px;
     border: 3px inset;
     background-color: whitesmoke;
@@ -78,7 +90,7 @@ article #courses {
 }
 
 #crim,
-#educ {
+#educ, #cthm, #bshrm {
     width: 158px;
     height: auto;
     margin-top: 20px;
@@ -112,15 +124,16 @@ article #courses {
 #BSBA,
 #EDUC,
 #IT,
-#CS {
+#CS, #CTHM, #BSHRM {
     text-align: center;
-    margin: 10px;
     width: 310px;
     background: white;
     box-shadow: 0 10px 20px black;
-    border-radius: 5px;
+    border-radius: 20px;
     padding: 5px;
     margin-bottom: 20px;
+    display: inline-block;
+    vertical-align: top;
 }
 
 #services {
@@ -148,14 +161,4 @@ article #courses {
 #about,
 #contact {
     border: 7px ridge;
-}
-
-button {
-    text-align: center;
-    font-size: 13px;
-    color: rgb(145, 46, 46);
-    padding: 10px 18px;
-    font-weight: 900;
-    border: 1px solid rgb(145, 46, 46);
-    border-radius: 20px;
 }
