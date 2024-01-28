@@ -22,24 +22,11 @@
     height: auto;
 }
 
-a {
-    text-decoration: none;
-    color: black;
-    
-}
+
 
 #list {
     display: inline-flex;
-    margin: 10px;
-    font-weight: bold;
-    padding: 10px;
-    border-radius: 10px;
-    border: 3px outset;
-    display: inline-flex;
-    align-items: center;
-    text-align: center;
-    background-color: whitesmoke;
-    box-shadow: 0 10px 20px;
+    margin: 50px;
 }
 
 nav {
@@ -155,4 +142,20 @@ button:hover {
     background-color: blue; 
     color: white; 
 
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    transition: background-color 0.3s ease;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    padding: 10px 18px;
+    box-shadow: 0 3px 20px;
+}
+
+nav a:hover{
+    background-color: blue; 
+    color: white; 
+    
 }
