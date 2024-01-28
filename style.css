@@ -25,6 +25,7 @@
 a {
     text-decoration: none;
     color: black;
+    
 }
 
 #list {
@@ -38,6 +39,7 @@ a {
     align-items: center;
     text-align: center;
     background-color: whitesmoke;
+    box-shadow: 0 10px 20px;
 }
 
 nav {
@@ -54,18 +56,6 @@ nav {
     justify-content: space-between;
     padding: 20px;
     border: 6px ridge;
-}
-
-.course-section {
-    text-align: center;
-    width: 48%; 
-    background: white;
-    box-shadow: 0 10px 20px black;
-    border-radius: 5px;
-    padding: 5px;
-    margin-bottom: 20px;
-    display: inline-block;
-    vertical-align: top;
 }
 
 
@@ -136,21 +126,7 @@ article #courses {
     vertical-align: top;
 }
 
-#services {
-    margin: 20px;
-    background-color: whitesmoke;
-    border-radius: 10px;
-    padding: 20px;
-}
-
-#about {
-    margin: 20px;
-    background-color: whitesmoke;
-    border-radius: 10px;
-    padding: 20px;
-}
-
-#contact {
+#services, #about, #contact  {
     margin: 20px;
     background-color: whitesmoke;
     border-radius: 10px;
